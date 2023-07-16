@@ -75,7 +75,7 @@ header#cabecalho {
     position: relative;
     height: 170px;
     background-color: #ffffff;
-    background: url(../_imagens/_urucu_01.jpg)  no-repeat 0px 0px;
+    background: url(../imagens/_urucu_01.jpg)  no-repeat 0px 0px;
     border-bottom: #606060 2px solid;
     box-shadow: 0px 0px 10px black;
     margin-top: 40px;
