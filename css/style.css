@@ -213,7 +213,7 @@ section#esquerda {
     width: 460px;
     box-shadow: 0px 0px 10 black;
     margin-top: -20px;
-padding: 30px;
+
 }
 @media(max-width: 1200px) {
     section#esquerda {
