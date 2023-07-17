@@ -275,12 +275,14 @@ aside#direita {
 
 /*fim daconfiguração do aside*/
 
-p#voltar img {
-    width: 50%;
-}
-p#avancar img {
-    width: 50%;
+
+
+p#avancar {
     margin-left: 700px;
+    width: 20%;
+}
+p#voltar {
+    width: 20%;
 }
 
 
