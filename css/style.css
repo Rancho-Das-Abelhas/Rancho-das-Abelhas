@@ -59,7 +59,7 @@ nav#menu a:hover {
 
 /*incio da configuração da div interface*/
 div#interface {
-width: 1000;
+width: 1200;
 background-color: #ffffff;
 margin: 0px auto 0px auto;
 box-shadow: 0px 0px 10px black;
@@ -214,24 +214,24 @@ section#esquerda {
     float: left;
 }
 @media(max-width: 1200px) {
-    div#interface{
+    section#esquerda {
         width: 1000;
     }
 }
 
 @media(max-width: 1024px) {
-    div#interface {
+    section#esquerda {
         width: 700px;
     }
   }
     @media(max-width: 768px) {
-        div#interface {
+        section#esquerda {
           width: 400px;
     }
 }
    
 @media(max-width: 425px) {
-    div#interface {
+    section#esquerda {
         width: 120px;
     }
 }
