@@ -238,6 +238,10 @@ section#esquerda {
     }
 }
 
+hgroup#pagina1 {
+    padding: 30px;
+    text-align: justify;
+}
 
 /*fim da configuração da section*/
 
