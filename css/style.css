@@ -235,6 +235,29 @@ section#esquerda {
         width: 120px;
     }
 }
+
+@media(max-width: 1200px) {
+    aside#direita {
+        width: 1000;
+    }
+}
+
+@media(max-width: 1024px) {
+    aside#direita {
+        width: 700px;
+    }
+  }
+    @media(max-width: 768px) {
+        aside#direirta {
+          width: 400px;
+    }
+}
+   
+@media(max-width: 425px) {
+    aside#direita {
+        width: 120px;
+    }
+
 /*fim da configuração da section*/
 
 /*inicio da configuração do aside*/
