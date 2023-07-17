@@ -238,7 +238,7 @@ section#esquerda {
 
 @media(max-width: 1200px) {
     aside#direita {
-        width: 1000;
+        width: 500px;
     }
 }
 
