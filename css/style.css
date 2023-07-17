@@ -276,9 +276,12 @@ aside#direita {
 /*fim daconfiguração do aside*/
 
 p#voltar img {
-    width: 10%;
+    width: 50%;
 }
-
+p#avancar {
+    width: 50%;
+    margin-left: 500px;
+}
 
 
 /*incio da configuração do rodape*/
