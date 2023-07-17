@@ -263,9 +263,10 @@ section#esquerda {
 /*inicio da configuração do aside*/
 aside#direita {
 	display: block;
-	width: 410px;
+	width: 300px;
 	float: right;
     margin-top: -20px;
+    margin-left: 500px;
 }
 
 
