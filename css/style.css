@@ -7,7 +7,7 @@ body {
 	background-position: center;
 	background-size: cover;
     width: 1000px;
-    margin-left: 50pxpx;
+    margin-left: 50px;
 
 }
 /*fim  da configuração do body*/
@@ -238,42 +238,10 @@ section#esquerda {
     }
 }
 
-@media(max-width: 1200px) {
-    aside#direita {
-        width: 500px;
-    }
-}
-
-@media(max-width: 1024px) {
-    aside#direita {
-        width: 700px;
-    }
-  }
-    @media(max-width: 768px) {
-        aside#direirta {
-          width: 400px;
-    }
-}
-   
-@media(max-width: 425px) {
-    aside#direita {
-        width: 120px;
-    }
-}
 
 /*fim da configuração da section*/
 
-/*inicio da configuração do aside*/
-aside#direita {
-	display: block;
-	width: 20pxpx;
-	float: right;
-    margin-top: 0px;
-    margin-left: 900px;
-}
 
-
-/*fim daconfiguração do aside*/
 
 
 
