@@ -172,6 +172,7 @@ figure.incentivod figcaption {
     position: absolute;
     top: 0px;
     background-color: #000000;
+    position: relative;
 }
 
 
