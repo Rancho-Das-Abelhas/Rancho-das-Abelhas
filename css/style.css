@@ -257,6 +257,7 @@ section#esquerda {
     aside#direita {
         width: 120px;
     }
+}
 
 /*fim da configuração da section*/
 
@@ -265,8 +266,7 @@ aside#direita {
 	display: block;
 	width: 300px;
 	float: right;
-    margin-top: -20px;
-    margin-left: 500px;
+    margin-top: 0px;
 }
 
 
