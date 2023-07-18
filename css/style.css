@@ -7,7 +7,7 @@ body {
 	background-position: center;
 	background-size: cover;
     width: 1000px;
-    margin-left: 50px;
+    margin: auto;
 
 }
 /*fim  da configuração do body*/
@@ -22,15 +22,15 @@ nav#menu ul{
 	list-style: none;
 	text-transform: uppercase;
 	position: absolute;
-	top: -20px;
-	left: 50px;
+	top: -10px;
+	left: 200px;
 }
 
 nav#menu li {
 	display: inline-block;
 	background-color: #cab2cb;
-	padding: 7px;
-	margin: 4px;
+	padding: 12px;
+	margin: 8px;
 	transition: background-color 1s;
 }
 nav#menu li:hover{
@@ -76,12 +76,14 @@ header#cabecalho {
     position: relative;
     height: 170px;
     background-color: #ffffff;
-    background: url(../imagens/bemvindo1.jpg) no-repeat 0px 0px;
+    background: url(../) no-repeat 0px 0px;
     border-bottom: #606060 2px solid;
     box-shadow: 0px 0px 10px black;
-    margin-top: 40px;
+    margin-top: 60px;
 }
-
+header#cabecalho img {
+    width: 50px;
+}
 
 
 header#cabecalho h1 {
@@ -107,23 +109,27 @@ figure#abelha_pulando  {
     position: absolute;
     float: 50px 50px;
     margin-left: 750px;
-    margin-top: -90px;
+    margin-top: -120px;
     width: 10px;
     background-size: cover;
 
 }
+figure#abelha_pulando img {
+     width: 200px;
+     background-size: ;
+     mix-blend-mode:;
+}
+
 
 figure#clique1 img {
     position: absolute;
     float: 50px 50px;
-    margin-left: 500px;
+    margin-left: 600px;
     margin-top: 10px;
     width: 300px;
+
 }
-figure#abelha_pulando img {
-     width: 300px;
-     background-size: ;
-}
+
 /*fimda configuração da abelha pulando*/
 
 
