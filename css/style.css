@@ -105,11 +105,24 @@ header#cabecalho h2 {
 /*inicio da configuração da abelha pulando*/
 figure#abelha_pulando  {
     position: absolute;
-    float: 100px 50px;
-    margin-left: 700px;
-    margin-top: -200px;
-    width: 10%;
-    height: 10%;
+    float: 50px 50px;
+    margin-left: 750px;
+    margin-top: -90px;
+    width: 10px;
+    background-size: cover;
+
+}
+
+figure#clique1 img {
+    position: absolute;
+    float: 50px 50px;
+    margin-left: 370px;
+    margin-top: 10px;
+    width: 300px;
+}
+figure#abelha_pulando img {
+     width: 300px;
+     background-size: ;
 }
 /*fimda configuração da abelha pulando*/
 
