@@ -301,8 +301,12 @@ hgroup#pagina1 {
 
 
 p#avancar {
-    margin-left: 700px;
+    margin-left: 800px;
     width: 20%;
+    position: absolute;
+    float: right;
+    margin-top: -180px;
+
 }
 p#voltar {
     width: 20%;
