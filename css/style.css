@@ -69,7 +69,7 @@ text-align: justify;
 
 }
 figure#central {
-    margin: 20px auto 0px 100px;
+    margin: 40px auto 0px 100px;
 }
 
 /*fim da configuração da div interface*/
@@ -122,7 +122,7 @@ figure#abelha_pulando  {
 
 }
 figure#abelha_pulando img {
-     width: 170px;
+     width: 160px;
      background-size: none ;
      mix-blend-mode:normal;
 }
