@@ -68,7 +68,7 @@ padding:50px;
 text-align: justify;
 }
 figure#central {
-    margin: 0px auto 0px 100px;
+    margin: 20px auto 0px 100px;
 }
 
 /*fim da configuração da div interface*/
@@ -106,6 +106,10 @@ header#cabecalho h2 {
 
 
 /*fim da configuração do cabeçalho*/
+
+hgroup#tex {
+    margin-left: 120px;
+}
 
 /*inicio da configuração da abelha pulando*/
 figure#abelha_pulando  {
@@ -189,6 +193,7 @@ figure.incentivo{
     position: relative;
     border: 1px solid rgb(203, 187, 187);
     box-shadow: 1px 1px 4px black ;
+
 }
 figure.incentivo {
     width: 100%;
@@ -198,7 +203,7 @@ figure.incentivo {
 
 figure.incentivo figcaption {
        position: absolute;
-       top: 00px;
+       top: 0px;
        border: 10px;
 background-color: rgba(240, 228, 97, 0.853);
 opacity: 0;
@@ -322,7 +327,7 @@ p#avancar {
     width: 20%;
     position: absolute;
     float: right;
-    margin-top: -190px;
+    margin-top: -175px;
 
 }
 p#voltar {
