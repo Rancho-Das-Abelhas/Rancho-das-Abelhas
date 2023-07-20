@@ -64,9 +64,13 @@ background-color: #ffffff;
 margin: 0px auto 0px auto;
 box-shadow: 0px 0px 10px black;
 margin: 10px auto 0px auto;
-padding: auto;
-
+padding:50px;
+text-align: justify;
 }
+figure#central {
+    margin: 0px auto 0px 100px;
+}
+
 /*fim da configuração da div interface*/
 
 
@@ -80,10 +84,9 @@ header#cabecalho {
     border-bottom: #606060 2px solid;
     box-shadow: 0px 0px 10px black;
     margin-top: 60px;
+
 }
-header#cabecalho img {
-    width: 50px;
-}
+
 
 
 header#cabecalho h1 {
@@ -107,17 +110,16 @@ header#cabecalho h2 {
 /*inicio da configuração da abelha pulando*/
 figure#abelha_pulando  {
     position: absolute;
-    float: 50px 50px;
-    margin-left: 750px;
-    margin-top: -120px;
-    width: 10px;
+    float: 40px 40px;
+    margin-left: 40px;
+    margin-top: -190px;
     background-size: cover;
 
 }
 figure#abelha_pulando img {
-     width: 200px;
-     background-size: ;
-     mix-blend-mode:;
+     width: 170px;
+     background-size: none ;
+     mix-blend-mode:normal;
 }
 
 
@@ -162,6 +164,15 @@ figure#clique5 img {
     width: 300px;
 
 }
+figure#clique6 img {
+    position: absolute;
+    float: 50px 50px;
+    margin-left: 370px;
+    margin-top: 1550px;
+    width: 300px;
+}
+
+
 /*fimda configuração da abelha pulando*/
 
 
@@ -169,6 +180,10 @@ figure#clique5 img {
 hgroup#esquerda {
     margin: 0px auto 0px 30px;
     padding: 0px auto 0px auto;
+
+}
+hgroup#iframe {
+    margin: 150px;
 }
 figure.incentivo{
     position: relative;
@@ -203,7 +218,9 @@ transition: opacity 1s;
    figure.incentivo:hover figcaption {
     opacity: 9;
    }
-  
+  figure.incentivo2 {
+    width: 50px;
+  }
 
 /*fim daconfiguração do hgroup direito*/
 
@@ -301,11 +318,11 @@ hgroup#pagina1 {
 
 
 p#avancar {
-    margin-left: 800px;
+    margin-left: 700px;
     width: 20%;
     position: absolute;
     float: right;
-    margin-top: -180px;
+    margin-top: -190px;
 
 }
 p#voltar {
