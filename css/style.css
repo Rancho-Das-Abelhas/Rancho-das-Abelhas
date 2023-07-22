@@ -113,16 +113,17 @@ hgroup#tex {
 }
 
 /*inicio da configuração da abelha pulando*/
-figure#abelha_pulando  {
+figure#vitoria  {
     position: absolute;
     float: 40px 40px;
-    margin-left: 40px;
+    margin-left: 0px;
     margin-top: -190px;
     background-size: cover;
+    box-shadow: 0px 0px 4px #000000;
 
 }
-figure#abelha_pulando img {
-     width: 160px;
+figure#vitoria img {
+     width: 105px;
      background-size: none ;
      mix-blend-mode:normal;
 }
@@ -130,8 +131,9 @@ figure#abelha_pulando img {
 figure#sorriso img {
     position: absolute;
     float: 40px 40px;
-    margin-left: 700px;
-    margin-top: 1720px;
+    margin-left: 300px;
+    margin-top: -320px;
+    box-shadow: 0px 0px 4px #000000;
 
 }
 figure#sorriso img {
