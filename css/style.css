@@ -127,6 +127,25 @@ figure#abelha_pulando img {
      mix-blend-mode:normal;
 }
 
+figure#sorriso img {
+    position: absolute;
+    float: 40px 40px;
+    margin-left: 700px;
+    margin-top: 1720px;
+
+}
+figure#sorriso img {
+     width: 200px;
+     background-size: none ;
+     mix-blend-mode:normal;
+     background-image: none;
+
+}
+    
+
+
+
+
 
 figure#clique1 img {
     position: absolute;
