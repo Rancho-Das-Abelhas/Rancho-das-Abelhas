@@ -23,7 +23,7 @@ nav#menu ul{
 	text-transform: uppercase;
 	position: absolute;
 	top: 0px;
-	left: 240px;
+	left: 560px;
 }
 
 nav#menu li {
@@ -328,18 +328,20 @@ p#avancar {
     width: 20%;
     position: absolute;
     float: right;
-    margin-top: -175px;
+    margin-top: -190px;
+
 
 }
 p#voltar {
     width: 20%;
+
 }
 
 
 /*incio da configuração do rodape*/
 footer#rodape {
     height: 80px;
-    border-top: #dddddd 1px solid;
+    border-top: #dddddd 2px solid;
     clear:both;
 text-align: center;
 
