@@ -349,7 +349,7 @@ p#avancar {
     width: 20%;
     position: absolute;
     float: right;
-    margin-top: -190px;
+    margin-top: -180px;
 
 
 }
@@ -370,3 +370,13 @@ text-align: center;
 
 
 /*fim daconfiguração do rodapé*/
+
+
+
+/*seção de propaganda*/
+
+figure#aguarde img {
+    width: 800px;
+    margin-left: 0px;
+    box-shadow: 0px 0px 4px black;
+}
