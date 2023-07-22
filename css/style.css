@@ -23,14 +23,14 @@ nav#menu ul{
 	text-transform: uppercase;
 	position: absolute;
 	top: 0px;
-	left: 420px;
+	left: 410px;
 }
 
 nav#menu li {
 	display: inline-block;
 	background-color: #cab2cb;
-	padding: 18px;
-	margin: 12px;
+	padding: 28px;
+	margin: 10px;
 	transition: background-color 1s;
 }
 nav#menu li:hover{
