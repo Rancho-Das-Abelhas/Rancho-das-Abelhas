@@ -23,13 +23,13 @@ nav#menu ul{
 	text-transform: uppercase;
 	position: absolute;
 	top: 0px;
-	left: 410px;
+	left: 400px;
 }
 
 nav#menu li {
 	display: inline-block;
 	background-color: #cab2cb;
-	padding: 28px;
+	padding: 20px;
 	margin: 10px;
 	transition: background-color 1s;
 }
