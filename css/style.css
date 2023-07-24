@@ -259,8 +259,8 @@ transition: opacity 1s;
    figure.incentivo:hover figcaption {
     opacity: 9;
    }
-  figure.incentivo2 {
-    width: 50px;
+  figure.incentivo2 img {
+    width: 300px;
   }
 
 /*fim daconfiguração do hgroup direito*/
