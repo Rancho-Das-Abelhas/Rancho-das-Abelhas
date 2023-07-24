@@ -120,10 +120,19 @@ hgroup#tex {
 figure#vitoria img {
     position: absolute;
     float: 40px 40px;
-    margin-left: -170px;
-    margin-top: -405px;
-    width: 500px;
+    margin-left: -40px;
+    margin-top: -180px;
+    width: 200px;
 }
+figure#persistir img {
+    position: absolute;
+    float: 40px 40px;
+    margin-left: 650px;
+    margin-top: -270px;
+    width: 250px;
+}
+
+
 
 
 figure#sorriso img {
@@ -131,12 +140,12 @@ figure#sorriso img {
     float: 40px 40px;
     margin-left: 300px;
     margin-top: -315px;
-    width: 100px;
+    width: 200px;
     
 
 }
 figure#sorriso img {
-     width: 200px;
+     width: 100px;
      background-size: none ;
      mix-blend-mode:normal;
 }
