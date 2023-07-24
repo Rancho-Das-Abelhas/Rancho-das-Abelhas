@@ -139,13 +139,13 @@ figure#sorriso img {
     position: absolute;
     float: 40px 40px;
     margin-left: 200px;
-    margin-top: -235px;
+    margin-top: -180px;
 
     
 
 }
 figure#sorriso img {
-     width: 300px;
+     width: 250px;
      background-size: none ;
      mix-blend-mode:normal;
 }
@@ -153,9 +153,9 @@ figure#sorriso img {
 figure#sorria img {
     position: absolute;
     float: 40px 40px;
-    margin-left: -90px;
-    margin-top: -250px;
-    width: 350px;
+    margin-left: -60px;
+    margin-top: -290px;
+    width: 250px;
 }
     
 
@@ -359,7 +359,7 @@ hgroup#pagina1 {
 
 
 p#avancar {
-    margin-left: 600px;
+    margin-left: 630px;
     width: 20%;
     position: absolute;
     float: right;
