@@ -138,14 +138,14 @@ figure#persistir img {
 figure#sorriso img {
     position: absolute;
     float: 40px 40px;
-    margin-left: 300px;
-    margin-top: -315px;
-    width: 200px;
+    margin-left: 200px;
+    margin-top: -235px;
+
     
 
 }
 figure#sorriso img {
-     width: 100px;
+     width: 300px;
      background-size: none ;
      mix-blend-mode:normal;
 }
