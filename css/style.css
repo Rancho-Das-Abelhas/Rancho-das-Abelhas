@@ -69,7 +69,11 @@ text-align: justify;
 
 }
 figure#central {
-    margin: 40px auto 0px 100px;
+    margin: 40px auto 0px auto;
+}
+figure#central img {
+width: 700px;
+margin-left: 100px;
 }
 
 /*fim da configuração da div interface*/
@@ -113,35 +117,36 @@ hgroup#tex {
 }
 
 /*inicio da configuração da abelha pulando*/
-figure#vitoria  {
+figure#vitoria img {
     position: absolute;
     float: 40px 40px;
-    margin-left: 0px;
-    margin-top: -189px;
-    background-size: cover;
-    box-shadow: 0px 0px 4px #000000;
+    margin-left: -170px;
+    margin-top: -405px;
+    width: 500px;
+}
 
-}
-figure#vitoria img {
-     width: 105px;
-     background-size: none ;
-     mix-blend-mode:normal;
-}
 
 figure#sorriso img {
     position: absolute;
     float: 40px 40px;
     margin-left: 300px;
     margin-top: -315px;
-    box-shadow: 0px 0px 4px #000000;
+    width: 100px;
+    
 
 }
 figure#sorriso img {
      width: 200px;
      background-size: none ;
      mix-blend-mode:normal;
-     background-image: none;
+}
 
+figure#sorria img {
+    position: absolute;
+    float: 40px 40px;
+    margin-left: -90px;
+    margin-top: -250px;
+    width: 350px;
 }
     
 
