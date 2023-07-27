@@ -117,21 +117,29 @@ hgroup#tex {
 }
 
 /*inicio da configuração da abelha pulando*/
-figure#vitoria img {
+figure#mastercel img {
     position: absolute;
     float: 40px 40px;
-    margin-left: -40px;
-    margin-top: -250px;
-    width: 250px;
+    margin-left: 600px;
+    margin-top: 1400px;
+    width: 200px;
 }
 figure#bh img {
     position: absolute;
     float: 40px 40px;
-    margin-left: 150px;
-    margin-top: -290px;
-    width: 350px;
+    margin-left: 220px;
+    margin-top: -250px;
+    width: 250px;
 }
 
+
+figure#vitoria img {
+    width: 200px;
+    position: absolute;
+    float:left ;
+    margin-top: -165px;
+    margin-left: 0px;
+}
 
 
 
@@ -395,8 +403,3 @@ text-align: center;
 
 /*seção de propaganda*/
 
-figure#aguarde img {
-    width: 800px;
-    margin-left: 0px;
-    box-shadow: 0px 0px 4px black;
-}
