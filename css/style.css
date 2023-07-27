@@ -124,12 +124,12 @@ figure#vitoria img {
     margin-top: -250px;
     width: 250px;
 }
-figure#persistir img {
+figure#bh img {
     position: absolute;
     float: 40px 40px;
-    margin-left: 650px;
-    margin-top: -260px;
-    width: 200px;
+    margin-left: 150px;
+    margin-top: -290px;
+    width: 350px;
 }
 
 
@@ -153,11 +153,17 @@ figure#sorriso img {
 figure#sorria img {
     position: absolute;
     float: 40px 40px;
-    margin-left: -60px;
-    margin-top: -290px;
+    margin-left: 600px;
+    margin-top: -590px;
     width: 250px;
 }
-    
+    figure#yasmim img {
+        width: 200px;
+        position: absolute;
+        float:left ;
+        margin-top: -260px;
+        margin-left: 660px;
+    }
 
 
 
@@ -207,8 +213,8 @@ figure#clique5 img {
 figure#clique6 img {
     position: absolute;
     float: 50px 50px;
-    margin-left: 370px;
-    margin-top: 1560px;
+    margin-left: 380px;
+    margin-top: 1400px;
     width: 300px;
 }
 
