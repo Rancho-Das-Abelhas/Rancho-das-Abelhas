@@ -124,30 +124,12 @@ figure#mastercel img {
     margin-top: 1450px;
     width: 200px;
 }
-figure#bh img {
-    position: absolute;
-    float: 40px 40px;
-    margin-left: 220px;
-    margin-top: -250px;
-    width: 250px;
-}
-
-
-figure#vitoria img {
-    width: 200px;
-    position: absolute;
-    float:left ;
-    margin-top: -165px;
-    margin-left: 0px;
-}
-
-
 
 figure#sorriso img {
     position: absolute;
     float: 40px 40px;
     margin-left: 200px;
-    margin-top: -180px;
+    margin-top: -100px;
 
     
 
@@ -169,7 +151,7 @@ figure#sorria img {
         width: 200px;
         position: absolute;
         float:left ;
-        margin-top: -260px;
+        margin-top: -500px;
         margin-left: 660px;
     }
 
