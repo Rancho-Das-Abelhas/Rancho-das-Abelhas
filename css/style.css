@@ -95,14 +95,14 @@ header#cabecalho {
 
 
 header#cabecalho h1 {
-    margin-left: 380px;
+    margin-left: 360px;
     margin-top: 30px;
     box-shadow: 0px 0px 10px black;
     background-color: #ba92b0;
     
 }
 header#cabecalho h2 {
-    margin-left: 260px;
+    margin-left: 250px;
     margin-top: 40px;
     box-shadow: 0px 0px 10px black;
     background-color: #cfb5dd;
