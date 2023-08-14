@@ -198,15 +198,22 @@ figure#clique5 img {
     margin-left: 600px;
     margin-top: 1130px;
     width: 300px;
-
 }
 figure#clique6 img {
     position: absolute;
     float: 50px 50px;
     margin-left: 580px;
     margin-top: 1400px;
-    width: 300px;
+    width: 300px
 }
+figure#clique7 img {
+    position: absolute;
+    float: 50px 50px;
+    margin-left: 580px;
+    margin-top: 1700px;
+    width: 300px
+}
+
 
 
 /*fimda configuração da abelha pulando*/
