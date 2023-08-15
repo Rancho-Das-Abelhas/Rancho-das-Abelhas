@@ -100,6 +100,7 @@ header#cabecalho h1 {
     margin-top: 30px;
     box-shadow: 0px 0px 10px black;
     background-color: #ba92b0;
+	border-radius: 50px;
     
 }
 header#cabecalho h2 {
@@ -107,6 +108,7 @@ header#cabecalho h2 {
     margin-top: 40px;
     box-shadow: 0px 0px 10px black;
     background-color: #cfb5dd;
+    border-radius: 50px;
 }
 
 
@@ -124,6 +126,7 @@ figure#mastercel img {
     margin-left: 600px;
     margin-top: 1450px;
     width: 200px;
+    border-radius: 50px;
 }
 
 figure#sorriso img {
@@ -131,6 +134,7 @@ figure#sorriso img {
     float: 40px 40px;
     margin-left: 200px;
     margin-top: -100px;
+    border-radius: 50px;
 
     
 
@@ -139,6 +143,7 @@ figure#sorriso img {
      width: 250px;
      background-size: none ;
      mix-blend-mode:normal;
+     border-radius: 50px;
 }
 
 figure#sorria img {
@@ -147,7 +152,7 @@ figure#sorria img {
     margin-left: 600px;
     margin-top: -590px;
     width: 250px;
-	border-radius: 50px;
+    border-radius: 50px;
 }
     figure#yasmim img {
         width: 170px;
@@ -269,6 +274,9 @@ border-radius: 50px;
   figure.incentivo2 img {
     width: 200px;
   }
+figuure.incentivo img {
+border-radius: 50px;
+}
 
 /*fim daconfiguração do hgroup direito*/
 
