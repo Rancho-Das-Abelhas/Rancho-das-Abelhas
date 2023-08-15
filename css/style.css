@@ -253,6 +253,7 @@ left: 48%;
 padding: 15px;
 box-sizing: border-box;
 transition: opacity 1s;
+border-radius: 50px;
    }
    figure.incentivo figcaption {
     text-align: left;
