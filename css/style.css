@@ -115,12 +115,14 @@ header#cabecalho h2 {
 }
 
 figure#home img {
-    width: 150px;
+    width: 170px;
     position: absolute;
-    margin-top: -20px;
+    margin-top: -30px;
     margin-left:-20px;
     display: block 1px ;
     box-shadow: 1px 1px 4px black;
+    border-radius: 50%;
+    
 }
 
 
