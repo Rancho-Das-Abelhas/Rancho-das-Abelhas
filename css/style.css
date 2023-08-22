@@ -3,12 +3,16 @@
 /*inicio da configuração do body*/
 
 body {
-	background-color: #ffffff;
-	background-position: center;
+
 	background-size: cover;
     width: 1000px;
     margin: auto;
     border-radius: 20px;
+	background-image: url(../imagens2/PicRetouch_20230822_075843150.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 
 }
 /*fim  da configuração do body*/
