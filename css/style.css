@@ -19,6 +19,10 @@ body {
 
 nav#menu {
 	display: block;
+	background-image: url(../imagens2/Screenshot_20230822-191250~2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:
 }
 nav#menu ul{
 	list-style: none;
