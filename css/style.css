@@ -247,14 +247,10 @@ figure.incentivo{
     border: 1px solid rgb(203, 187, 187);
     box-shadow: 1px 1px 4px black ;
     border-radius: 50px;
-<<<<<<< HEAD
     background-image: url(../imagens2/tronco00.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-=======
-
->>>>>>> de0a9705b72a46d5db49fdd19784de218318a19d
 
 }
 figure.incentivo {
