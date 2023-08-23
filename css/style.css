@@ -81,8 +81,8 @@ figure#central {
     margin: 40px auto 0px auto;
 }
 figure#central img {
-width: 700px;
-margin-left: 100px;
+width: 500px;
+margin-left: 0px;
 }
 
 /*fim da configuração da div interface*/
@@ -100,6 +100,7 @@ header#cabecalho {
     margin-top: 100px;
     border-radius: 10px;
     margin-left: 50px;
+    width: 810px;
 
 
 
@@ -224,14 +225,14 @@ figure#clique5 img {
 figure#clique6 img {
     position: absolute;
     float: 50px 50px;
-    margin-left: 580px;
+    margin-left: 560px;
     margin-top: 1400px;
     width: 300px
 }
 figure#clique7 img {
     position: absolute;
     float: 50px 50px;
-    margin-left: 700px;
+    margin-left: 600px;
     margin-top: 1785px;
     width: 200px
 }
@@ -256,10 +257,10 @@ figure.incentivo{
     border: 1px solid rgb(203, 187, 187);
     box-shadow: 1px 1px 4px black ;
     border-radius: 50px;
-    background-image: url(../imagens2/PicRetouch_20230822_075843150.jpg );
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 
 }
 figure.incentivo {
