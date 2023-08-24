@@ -26,6 +26,13 @@ div#arame-de-caderno {
 }
 div#arame-de-caderno img {
     width: 980px;
+    border-radius: 20px;
+}
+figure#caneta-azul img {
+    width: 200px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -500px;
 }
 
 nav#menu {
@@ -243,9 +250,10 @@ figure#clique6 img {
 figure#clique7 img {
     position: absolute;
     float: 50px 50px;
-    margin-left: 600px;
-    margin-top: 1785px;
-    width: 200px
+    margin-left: 630px;
+    margin-top: 1775px;
+    width: 190px;
+    border-radius: 20px;
 }
 
 
