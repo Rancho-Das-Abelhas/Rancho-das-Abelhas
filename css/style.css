@@ -258,6 +258,7 @@ figure#clique7 img {
 hgroup#esquerda {
     margin: 0px auto 0px 30px;
     padding: 0px auto 0px auto;
+    margin-left: 0px;
 
 }
 hgroup#iframe {
