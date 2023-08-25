@@ -17,17 +17,29 @@ body {
 /*inicio da configuração do menu nav*/
 
 
+div#arame-de-caderno {
+    display: block;
+    width: 980px;
+    margin-top: -95px;
+    margin-left: -80px;
+    border-radius: 20px;
+}
+div#arame-de-caderno img {
+    width: 980px;
+    border-radius: 20px;
+}
+
 nav#menu {
 	display: block;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:
+    background-position: 0%;
 }
 nav#menu ul{
 	list-style: none;
 	text-transform: uppercase;
 	position: absolute;
-	top: 20px;
+	top: 170px;
 	left: 370px;
 }
 
@@ -72,7 +84,7 @@ margin: 10px auto 0px auto;
 padding: 80px;
 text-align: justify;
 border-radius: 20px;
-    background-image: url(../imagens2/caderno-horizontal1.jpg);
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: left;
@@ -97,7 +109,7 @@ header#cabecalho {
     background: url(../) no-repeat 0px 0px;
     border-bottom: #606060 2px solid;
     box-shadow: 2px 2px 10px black;
-    margin-top: 70px;
+    margin-top: -270px;
     border-radius: 10px;
     margin-left: 50px;
     width: 810px;
@@ -211,7 +223,7 @@ figure#clique4 img {
     position: absolute;
     float: 50px 50px;
     margin-left: 600px;
-    margin-top: 850px;
+    margin-top: 870px;
     width: 300px;
 
 }
@@ -219,22 +231,23 @@ figure#clique5 img {
     position: absolute;
     float: 50px 50px;
     margin-left: 600px;
-    margin-top: 1130px;
+    margin-top: 1160px;
     width: 300px;
 }
 figure#clique6 img {
     position: absolute;
     float: 50px 50px;
     margin-left: 560px;
-    margin-top: 1400px;
+    margin-top: 1450px;
     width: 300px
 }
 figure#clique7 img {
     position: absolute;
     float: 50px 50px;
-    margin-left: 600px;
-    margin-top: 1785px;
-    width: 200px
+    margin-left: 630px;
+    margin-top: 1850px;
+    width: 190px;
+    border-radius: 20px;
 }
 
 
@@ -245,6 +258,7 @@ figure#clique7 img {
 hgroup#esquerda {
     margin: 0px auto 0px 30px;
     padding: 0px auto 0px auto;
+    margin-left: 0px;
 
 }
 hgroup#iframe {
