@@ -1,413 +1,442 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="vieport" content="width=device-width, initial-scale=1.0">  
-    <title>Projeto bootrapt</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="imabe/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <!--goolgle fontes lato-->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" 
-    rel="stylesheet" />
-
-    <!--css do bootstrap-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+<!--CCS BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    
-   <!--java scrip do bootstrap-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
-
-    <!--icones do bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <!--css do projeto-->
-    <link rel="stylesheet" href="css/style.css" />
-</head>
-
-
-
-<body>
-   
-<!--NAVBAR-->
-
-<nav class=" menu-expand-lg fixed-top bg-primary-color" id="menu">
-    <h1>Menu Principal</h1>
-    <heder id="cabecalho">
-        <ul type= "square">
-            <li><a href="index.html" target="_blank">Home</a></li>
-            <li><a href="escopo_do_projeto.html">Escopo</a></li>
-            <li><a href="Fases 1-2-3 do projeto.html" target="_blank">Fases 1-2-3</a></li>
-            <li><a href="fotos.html" target="_blank"> Fotos</a></li>
-            <li><a href="musicas-no-projeto.html" target="_blank">Cadastro</a></li>
-            <li><a href="contato.html" target="_blank">Contato</a></li>
+<!--CSS DO PROJETO-->
+<link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+<!--INÍCIO DA NAVBAR-->
+<nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(215, 192, 218);">
+    <div class="container-fluid">
+     
+      <a class="navbar-brand" href="#">Rancho <br>das<br> Abelhas <img src="img/" alt=""></a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a></li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fotos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="fases-do-projeto">Escopo</a></li>
+              <li><a class="dropdown-item" href="fotos">Fases 1-2-3</a></li>
+              
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Inscreva-se</a></li>
+            </ul>
+            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Pesquisar</a></li>
         </ul>
-        <figure id="arame">
-        <a href="#" class="menu-brand"> 
-            <img src="imagem-fundo/arame6.jpg" alt="Projeto bootrap"> <br>
-           
-             <samp>Rancho das Abelhas</samp>
-            </a>
-        </figure>  
-        <figure id="casa">
-            <a href="Atividades-do-Paulo.html"><img src="gif/seja-bem-vindo2.gif" alt=""></a>
+        <form class="d-flex">
+          <input class="form-control me-2" type="Busca" placeholder="Busca" aria-label="Busca">
+          <button class="btn btn-outline-success" type="pesquisar">Procurar</button></form>    
+      </div>
+        <img src="imagens2/arame2.png" alt=""> 
+    </div>
+  </nav>
+
+<!--FIM DA NAVBAR-->
+
+<figure class="figure figure-expand-lg fixed-top bg-primary-color" id="arame">
+    <img src="imagens2/" alt="">
+    <img src="img/enxame1.png" alt="">
+</figure>
 
 
-            </figure>
 
-            <figure id="alunos">
-                <a href="Yasmim.html"><img src="gif/as-tres-alunas.gif" alt="alunos"></a>
-        </figure> 
-        <figure id="la-ele">
-            <a href="https://youtube.com/shorts/3ny1wxy2-6w?si=IJvEhoZR1_d8E6a2"><img src="imagens2/abelha-artista (2).jpg" alt=""></a>
+<figure id="Alunos">
+   <a href="Yasmim.html"> <img src="gif/as-tres-alunas.gif" alt="Alunos"></a>
 
-        </figure>
-           
-        </heder>
-     </div>
-     </div>
-    </nav>
-<!--INTERFACE-->
+</figure>
+<figure id="bem-vindo">
+<a href="Atividades-do-Paulo.html"><img src="gif/bem-vindo.gif" alt=""></a>
+
+</figure>
+<figure id="la-ele">
+   <a href="https://youtube.com/shorts/3ny1wxy2-6w?si=hBmRt0Nka8bRdziI"><img src="gif/La-Ele_Meu-povo.gif" alt=""></a>
+
+</figure>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+
+<!-- INÍCIO DO CARROCEL DE PROPAGANDA-->
+<div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <a href="https://www.radios.com.br/aovivo/radio-educadora-901-fm/164750"> <img src="./gif/radio-educadora.gif" class="d-block w-100" alt="Casa"></a>
+      </div>
+      <div class="carousel-item">
+       <a href="mastercel.html"> <img src="./gif/mastercelularesg.gif" class="d-block w-100" alt="Master cel"></a>
+      </div>
+      <div class="carousel-item">
+        <a href=""><img src="./img/moto-boy.jpg" class="d-block w-100" alt="Moto Boy"></a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev" style=">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next" style=">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--FIM DO CARROCEL DE PROPAGANDA-->
+
+
+
+  <!--INTERFACE-->
 <div id="interface">
       
 
-<!--inicio section-->    
-
- <section id="esquerda">
-
-    <style>
-
-body 
-#menu {
-    background-color: #ffff;
-
-}
-
-header#cabecalho {
-    display: block;
-    position:absolute;
-    height: 170px;
-    border-bottom: #100c0c 2px solid;
-    box-shadow: 2px 2px 10px black;
-    margin-top: 0px;
-    border-radius: 10px;
-    margin-left: 100px;
-    float: left;
-
-
-
-}
-div#interface {
-width: 1200;
-margin: 0px auto 0px auto;
-margin: 10px auto 0px auto;
-padding: 80px;
-text-align: justify;
-border-radius: 20px;
-margin-top: 300px;
-margin-left: -90px;
-
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: left;
-
-}
- 
-
-div#arame-de-caderno img {
-    width: 1000px;
-    margin-left: -80px;
-    margin-top: -480px;
-    border-radius: 20px;
-    position: absolute;
-}
-figure#casa img {
-    width: 190px;
-    border-radius: 10%;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-figure#la-ele img {
-    width: 350px;
-    position: absolute;
-    margin-top: -190px;
-    float: left;
-    margin-left: 700px;
-    display: block;
-    border-radius: 10%;
+    <!--inicio section-->    
     
-}
-figure#alunos img {
-    width: 300px;
-    border-radius: 10px;
-    margin-left: 370px;
-    margin-top: -190px;
-    position: absolute;
-}
-nav#menu ul{
-	list-style: none;
-	text-transform: uppercase;
-	position: absolute;
-	top: 130px;
-	left: 200px;
-}
-
-
-   
-
-figure#boy img {
-    width: 220px;
-    position: absolute;
-    float: left;
-    margin-left: 595px;
-    margin-top: -30px;
-    box-shadow: 1px 1px 4px black;
-    border-radius: 10px;
-}
-
-
-
-
-div#clique img {
-    border-radius: 50%;
-}
-        div#propaganda1 img {
-            width: 250px;
-        
-            box-shadow: 1px 1px 4px black;
-            position: relative;
-            margin-top: 50px;
-
-        }
-        figure#master img {
-            position: relative;
-            width: 250px;
-            margin-top: 170px;
-            margin-left: 280px;
-            border-radius: 10px;
-        }
-       
-
-        figure#dentista img {
-    width: 220px;
-    position: relative;
-    float:left ;
-    margin-top: -220px;
-    margin-left: 595px;
-    box-shadow: 0px 0px 4px black;
-            border-radius: 10px;
-
-
-}
-
-
-figure#bh img {
-    position: relative;
-    float: 60px 60px;
-    margin-left: 10px;
-    margin-top: -160px;
-    width: 200px;
-    border-radius: 10px;
-}
-
- 
- img#moto {
-    width: 200px;
-    box-shadow: 2px 2px 4px black;
-    border-radius: 50px;
- }
- figure#yasmim img {
-    width: 200px;
-    position: absolute;
-    float: right;
-    margin-left: 10px;
-    margin-top: -10px;
-    border-radius: 10px;
- }
-
-    </style>
-
-
-
-<!--PROPAGANDA-->
+     <section id="esquerda">
+    
+        <style>
+    
+    body 
+    #menu {
+        background-color: #ffff;
+    
+    }
+   /*NAVBAR*/
   
+    div#interface {
+    width: 1200;
+    margin: 0px auto 0px auto;
+    margin: 10px auto 0px auto;
+    padding: 80px;
+    text-align: justify;
+    border-radius: 20px;
+    margin-top: -50px;
+    margin-left: -90px;
+    position: absolute;
 
+    
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: left;
+    
+    }
 
-<!--DINAMISMO-->
    
-<div id="clique">
-    <figure id="clique1">
+    
+    figure#bem-vindo img {
+        margin-left: 10px;
+        position: absolute;
+        float: left;
+        width: 300px;
+        margin-top: -190px;
+        box-shadow: 1px 1px 4px black;
+
+    }
+     
+    figure#Alunos img {
+        position: relative;
+        margin-left: 350px;
+        margin-top: 450px;
+        width: 300px;
+        box-shadow: 1px 1px 4px black;
+    }
+    figure#la-ele img {
+        width: 190px;
+        box-shadow: 1px 1px 4px black;
+    }
+    
+    div#arame-de-caderno img {
+        width: 1000px;
+        margin-left: -80px;
+        margin-top: -480px;
+        border-radius: 20px;
+        position: absolute;
+    }
+   
+    figure#la-ele img {
+        width: 300px;
+        position: absolute;
+        margin-top: -190px;
+        float: left;
+        margin-left: 690px;
+        display: block;
+    
+        
+    }
+    figure#alunos img {
+        width: 300px;
+        border-radius: 10px;
+        margin-left: 370px;
+        margin-top: -190px;
+        position: absolute;
+    }
+   
+    
+    
+    
+    
+    div#clique img {
+        border-radius: 50%;
+    }
+            div#propaganda1 img {
+                width: 250px;
+            
+                box-shadow: 1px 1px 4px black;
+                position: relative;
+                margin-top: 50px;
+    
+            }
+            figure#master img {
+                position: relative;
+                width: 250px;
+                margin-top: 170px;
+                margin-left: 280px;
+                border-radius: 10px;
+            }
+           
+    
+            figure#dentista img {
+        width: 220px;
+        position: relative;
+        float:left ;
+        margin-top: -220px;
+        margin-left: 595px;
+        box-shadow: 0px 0px 4px black;
+                border-radius: 10px;
+    
+    
+    }
+    
+    
+    figure#bh img {
+        position: relative;
+        float: 60px 60px;
+        margin-left: 10px;
+        margin-top: -160px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+     
+     img#moto {
+        width: 200px;
+        box-shadow: 2px 2px 4px black;
+        border-radius: 50px;
+     }
+     figure#yasmim img {
+        width: 200px;
+        position: absolute;
+        float: right;
+        margin-left: 10px;
+        margin-top: -10px;
+        border-radius: 10px;
+     }
+    
+        </style>
+    
+    
+    
+    <!--PROPAGANDA-->
+      
+    
+    
+    <!--DINAMISMO-->
+       
+    <div id="clique">
+
+
+        <figure id="clique1">
+            <img src="gif/clique01.gif">
+           <figcaption>         
+    
+           </figcaption>
+       </figure>
+    
+       <figure id="clique2">
         <img src="gif/clique01.gif">
        <figcaption>         
-
-       </figcaption>
-   </figure>
-
-   <figure id="clique2">
-    <img src="gif/clique01.gif">
-   <figcaption>         
-
-   </figcaption>
-</figure>
-
-<figure id="clique3">
-    <img src="gif/clique01.gif">
-   <figcaption>         
-
-   </figcaption>
-</figure>
-
-<figure id="clique4">
-    <img src="gif/clique01.gif">
-   <figcaption>         
-
-   </figcaption>
-</figure>
-
-<figure id="clique5">
-    <img src="gif/clique01.gif">
-   <figcaption>       
     
-<figure id="clique6">
+       </figcaption>
+    </figure>
+    
+    <figure id="clique3">
         <img src="gif/clique01.gif">
        <figcaption>         
     
        </figcaption>
-
-   </figcaption>
-</figure>
-
-<figure id="clique7">
-    <img src="gif/policia-multa.gif">
-   <figcaption>         
-
-   </figcaption>
-
-</figcaption>
-</figure>
-
-</div>
-
-<hgroup id="esquerda">
-<hgroup id= "tex">
-    <H2>
-        Estude on-line!
-    </H2>
-    </hgroup>
-   
-<figure class="incentivo">
-    <img id="fotoindice" src="imagens/curso_01.jpg">
-    <img src="imagens2/mao.png">
-    <figcaption>
-      <h5><a href="estude_ead.html" target="_blank">Estude TI on-line! Essa é, sem sombra de dúvidas, a profissão mais desejada no momento.<br>
-    Já pensou poder levar o seu emprego em uma mochila e trabalhar de qualquer cidade do mundo?</a></h5>   
-    </figcaption>
-</figure>
-
-<hgroup id="tex">
-    <h2>
-        Incentivo para a música
-    </h2>
-</hgroup>
-
-<figure class="incentivo"> 
-    <img id="fotoindice" src="imagens/musica_01.jpg">
-    <img src="imagens2/mao.png" alt="">
-     <figcaption>
-    <h5><a href="garimpo.html" target="_blank"> Garimpo de canções. Esse é um projeto que visa gravar canções inédita.</a></h5>
-    </figcaption>
-</figure>  
-
-<hgroup id="tex">
-    <h1>
-        Cuidados com os idosos
-    </h1>
-</hgroup>
-
- <figure class="incentivo">
-    <img id="fotoindice" src="imagens/idoso_01.jpg">
-    <img src="imagens2/mao.png">
-     <figcaption>
-    <h5><a href="idoso.html" target="_blank"> Se liga nessa profissão! Cada vez mais pessoas esão procurando aprender sobre esse assunto.</a></h5><br>
+    </figure>
+    
+    <figure id="clique4">
+        <img src="gif/clique01.gif">
+       <figcaption>         
+    
+       </figcaption>
+    </figure>
+    
+    <figure id="clique5">
+        <img src="gif/clique01.gif">
+       <figcaption>       
+        
+    <figure id="clique6">
+            <img src="gif/clique01.gif">
+           <figcaption>         
+        
+           </figcaption>
+    
+       </figcaption>
+    </figure>
+    
+    <figure id="clique7">
+        <img src="gif/policia-multa.gif">
+       <figcaption>         
+    
+       </figcaption>
+    
     </figcaption>
     </figure>
-
-<hgroup id="tex">
-    <h1>Casa dos sonhos</h1>
-</hgroup>
-
+    
+    </div>
+    
+    <hgroup id="esquerda">
+    <hgroup id= "tex">
+        <H2>
+            Estude on-line!
+        </H2>
+        </hgroup>
+       
     <figure class="incentivo">
-        <img id="fotoindice" src="imagens/casa_01.jpg">
+        <img id="fotoindice" src="imagens/curso_01.jpg">
         <img src="imagens2/mao.png">
         <figcaption>
-            <p><a href="casa_dos_sonhos.html" target="_blank">A casa será como uma escola multipla de incentivo aos estudos.
-                Conheça os detalhes do planejamento de construção e manutensão dentro do projeto!
-            </a></p>
-
-    </figcaption>
-</figure>
-    
-<hgroup id="tex">
-    <h2>Doadora do terreno</h2>
-</hgroup>
-    
-        
-
-    <figure class="incentivo">
-         <img id="fotoindice" src="imagens/aurea_01.jpg">
-         <img src="imagens2/mao.png" alt="">
-        <figcaption>
-         <p><a href="doadora_do_terreno.html"target="_blank">A primeira pessoa a contribuir para o projeto</a></p>
+          <h5><a href="estude_ead.html" target="_blank">Estude TI on-line! Essa é, sem sombra de dúvidas, a profissão mais desejada no momento.<br>
+        Já pensou poder levar o seu emprego em uma mochila e trabalhar de qualquer cidade do mundo?</a></h5>   
         </figcaption>
-    </figure><br>
-<hgroup id="tex">
-    <h4> Saiba mais sobre as abelhas</h4>
-</hgroup>   
-
-<figure class="incentivo">
-    <img id="fotoindice" src="imagens2/Saiba-mais-sobre -as-abelhas.png">
-    <img src="imagens2/mao.png" alt="">
-   <figcaption>
-    <p><a href="saiba_mais_sobre_abelha_sem_ferao.html"target="_blank">Antônio Nelson Costa fala como exclusividade para o nosso projeto.</a></p>
-   </figcaption>
-</figure><br>
-<hgroup id="tex">
-<h2>Segurança  no trânsito</h2>
-</hgroup>
-<figure class="incentivo">
-    <img id="moto" src="gif/abelha-motoqueira.gif">
-    <img src="imagens2/mao.png" alt="">
-   <figcaption>
-    <p><a href="segurança-no-trânsito.html"target="_blank">Conheneça as cinco formas de dirigir ou pilotar que podemos interpretar no CTB!</a></p>
-   </figcaption>
-</figure><br>
-
-
-   </hgroup>
-   <p id="voltar"><a href="escopo_do_projeto.html"><img src="boton/botaov2.png" alt="voltar"></a></p>
-
-
-   <p id="avancar"><a href="estude_ead.html"><img src="boton/botaoa2.png" alt="Avancar"></a></p>
-</figure>
-
-<hgroup id="esquerda">
-
-</section>
-
-
-
-<!--inicio rodapé-->
-<footer id="rodape">
-        <p><a href="https://www.facebook.com/paulobastos.dasilva.50/about?section=year-overviews" target="_blank">
-            Facebook
-        </a><br> <a href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a></p>
+    </figure>
     
-</footer>
-<!--fim rodapé-->
-</div>
-<!--fim da div interface-->
-</body>
-</html>
+    <hgroup id="tex">
+        <h2>
+            Incentivo para a música
+        </h2>
+    </hgroup>
+    
+    <figure class="incentivo"> 
+        <img id="fotoindice" src="imagens/musica_01.jpg">
+        <img src="imagens2/mao.png" alt="">
+         <figcaption>
+        <h5><a href="garimpo.html" target="_blank"> Garimpo de canções. Esse é um projeto que visa gravar canções inédita.</a></h5>
+        </figcaption>
+    </figure>  
+    
+    <hgroup id="tex">
+        <h1>
+            Cuidados com os idosos
+        </h1>
+    </hgroup>
+    
+     <figure class="incentivo">
+        <img id="fotoindice" src="imagens/idoso_01.jpg">
+        <img src="imagens2/mao.png">
+         <figcaption>
+        <h5><a href="idoso.html" target="_blank"> Se liga nessa profissão! Cada vez mais pessoas esão procurando aprender sobre esse assunto.</a></h5><br>
+        </figcaption>
+        </figure>
+    
+    <hgroup id="tex">
+        <h1>Casa dos sonhos</h1>
+    </hgroup>
+    
+        <figure class="incentivo">
+            <img id="fotoindice" src="imagens/casa_01.jpg">
+            <img src="imagens2/mao.png">
+            <figcaption>
+                <p><a href="casa_dos_sonhos.html" target="_blank">A casa será como uma escola multipla de incentivo aos estudos.
+                    Conheça os detalhes do planejamento de construção e manutensão dentro do projeto!
+                </a></p>
+    
+        </figcaption>
+    </figure>
+        
+    <hgroup id="tex">
+        <h2>Doadora do terreno</h2>
+    </hgroup>
+        
+            
+    
+        <figure class="incentivo">
+             <img id="fotoindice" src="imagens/aurea_01.jpg">
+             <img src="imagens2/mao.png" alt="">
+            <figcaption>
+             <p><a href="doadora_do_terreno.html"target="_blank">A primeira pessoa a contribuir para o projeto</a></p>
+            </figcaption>
+        </figure><br>
+    <hgroup id="tex">
+        <h4> Saiba mais sobre as abelhas</h4>
+    </hgroup>   
+    
+    <figure class="incentivo">
+        <img id="fotoindice" src="imagens2/Saiba-mais-sobre -as-abelhas.png">
+        <img src="imagens2/mao.png" alt="">
+       <figcaption>
+        <p><a href="saiba_mais_sobre_abelha_sem_ferao.html"target="_blank">Antônio Nelson Costa fala como exclusividade para o nosso projeto.</a></p>
+       </figcaption>
+    </figure><br>
+    <hgroup id="tex">
+    <h2>Segurança  no trânsito</h2>
+    </hgroup>
+    <figure class="incentivo">
+        <img id="moto" src="gif/abelha-motoqueira.gif">
+        <img src="imagens2/mao.png" alt="">
+       <figcaption>
+        <p><a href="segurança-no-trânsito.html"target="_blank">Conheneça as cinco formas de dirigir ou pilotar que podemos interpretar no CTB!</a></p>
+       </figcaption>
+    </figure><br>
+
+
+
+    
+       </hgroup>
+       <p id="voltar"><a href="escopo_do_projeto.html"><img src="boton/botaov2.png" alt="voltar"></a></p>
+    
+    
+       <p id="avancar"><a href="estude_ead.html"><img src="boton/botaoa2.png" alt="Avancar"></a></p>
+    </figure>
+    
+    <hgroup id="esquerda">
+
+
+  
+    
+    </section>
+    
+    
+    
+    <!--inicio rodapé-->
+    <footer id="rodape">
+            <p><a href="https://www.facebook.com/paulobastos.dasilva.50/about?section=year-overviews" target="_blank">
+                Facebook
+            </a><br> <a href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a></p>
+        
+    </footer>
+    <!--fim rodapé-->
+    </div>
+    <!--fim da div interface-->
+    </body>
+    </html>
+    
