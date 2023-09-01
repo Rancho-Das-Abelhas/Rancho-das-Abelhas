@@ -1,37 +1,93 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Estude EAD</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+<!--CCS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+<!--CSS DO PROJETO-->
+<link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+<!--INÍCIO DA NAVBAR-->
+<nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(215, 192, 218);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/" alt=""></a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inscreva-se</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="fotos.html">Fotos</a></li>
+              <li><a class="dropdown-item" href="fotos">Videos
+
+              </a></li>
+              
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="Fases 1-2-3 do projeto.html">Fases 1-2-3</a></li>
+            </ul>
+            <!--colar codigo-->
+
+
+
+
+
+            <!---->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Pesquisar</a></li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="Busca" placeholder="Busca" aria-label="Busca">
+          <button class="btn btn-outline-success" type="pesquisar">Procurar</button></form>    
+      </div>
+      <figure class= "imgnavbar">
+        <img src="img/Screenshot_20230901-140418~2.png" style="border-radius: 20px" alt=""> 
+      </figure>
+    </div>  
+    </div>
+  </nav>
+
+<!--FIM DA NAVBAR-->
 
 <style>
 
 
     figure#central img {
-        width: 500px;
-        margin-left: 190px;
+        width: 700px;
+        margin-left: 100px;
         border-radius: 10%;
         box-shadow: 1px 1px 4px black;
     }
 
     figure#central-ione img {
-        width: 500px;
-        margin-left: 160px;
+        width: 700px;
+        margin-left: 100px;
         border-radius: 10%;
         box-shadow: 1px 1px 4px black;
     }
 
 
 figure#yasmim-mirely img {
-    width: 500px;
+    width: 700px;
     border-radius: 20%;
-    margin-left: 170px;
+    margin-left: 100px;
 }
 p#iframe-estude iframe {
-    width:500px ;
-    margin-left: 180px;
+    width:700px;
+    margin-left: 100px;
     border-radius: 20px;
 }
 hgroup#tex-estude {
@@ -55,47 +111,10 @@ hgroup#tex-estude {
     background-color: rgb(213, 217, 218);
  }
 </style>
-
 <body>
 <div id="interface">
 
-    <div id="arame-de-caderno">
-        <p> </p>
-        <img src="imagem-fundo/arame4.jpg" alt="">
-       
-
-    </div> 
-<!--inicio da nav menu-->
-<nav id="menu">
-    <h1>Menu Principal</h1>
-        <ul type= "square">
-            <li><a href="index.html" target="_blank">Home</a></li>
-            <li><a href="Fases 1-2-3 do projeto.html" target="_blank">Fases 1-2-3</a></li>
-            <li><a href="fotos.html" target="_blank"> Fotos</a></li>
-            <li><a href="musicas-no-projeto.html" target="_blank"> Músicas</a></li>
-            <li><a href="contato.html" target="_blank">contato</a></li>
-        </ul><br>	
-    </nav>
-
-<!--fim da nav menu-->    
-
-<!--inicio cabeçalho-->
-     <header id="cabecalho"><br>
-
-        <figure id="home">
-            <a href="Atividades-do-Paulo.html"><img src="gif/seja-bem-vindo2.gif"></a>
-            <figcaption>         
-            </figcaption>
-        </figure>
-        
-        <h1>Rancho Das Abelhas</h1>
-        <h2><a href="escopo_do_projeto.html" target="_blank">Conheça o escopo do projeto!</a></h2>
-   </header>
-<!--fim cabeçalho-->
-
-
-
-<!--inicio da section-->
+  <!--inicio da section-->
         <figure id="central">
     <img src="imagens/curso_02.jpeg" alt="Curso">
        </figure>
