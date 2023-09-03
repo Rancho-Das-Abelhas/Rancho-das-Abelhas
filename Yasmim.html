@@ -1,77 +1,118 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.4">
+    <title>Estude EAD</title>
+<!--CCS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-<head>
-    <meta charset="UTF-8"/>
-    <title>Yasmim</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-</head>
+<!--CSS DO PROJETO-->
+<link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+<!--INÍCIO DA NAVBAR-->
+<nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(210, 209, 195);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/Logo.png" style="border-radius: 10px;" alt="Logo"></a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inscreva-se</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="fotos.html">Fotos</a></li>
+              <li><a class="dropdown-item" href="fotos">Videos
 
-  <style>
-                figure#yasmim  img{
-                    width: 500px;
-                    margin-left: 200px;
-                    border-radius: 20px;
-                }
-                figure#mirelly  img{
-                    width: 500px;
-                    margin-left: 200px;
-                    border-radius: 20px;
-                }
-            </style>
-
-
-<body>
-<!--inicio div interface-->
-<div id="interface">
-    <div id="arame-de-caderno">
-        <p> </p>
-        <img src="imagem-fundo/arame4.jpg" alt="">
-
-
+              </a></li>
+              
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="Fases 1-2-3 do projeto.html">Fases 1-2-3</a></li>
+            </ul>
+            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Pesquisar</a></li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="Busca" placeholder="Busca" aria-label="Busca">
+          <button class="btn btn-outline-success" type="pesquisar">Procurar</button></form>    
+      </div>
+      <figure class= "imgnavbar">
+        <img src="img/Screenshot_20230901-140418~2.png" style="border-radius: 20px" alt=""> 
+      </figure>
+    </div>  
     </div>
+  </nav>
 
-    <!--inicio cabeçalho-->
-    <header id="cabecalho"><br>
+<!--FIM DA NAVBAR-->
 
-        <figure id="home">
-            <a href="Atividades-do-Paulo.html"><img src="gif/seja-bem-vindo2.gif"></a>
-            <figcaption>         
-            </figcaption>
-        </figure>
+<figure class="figure figure-expand-lg fixed-top bg-primary-color" id="arame">
+  
+</figure>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+
+<!--CSS DA PÀGINA-->
+<style>
+    body {
+        margin-top: 500px;
+    }
+    figure#arame-do-caderno img {
+        width: 1000px;
+    }
+
+    video# {
+        width: 800px;
+        box-shadow: 0px 0px 4px black;
+        margin-left: 100px;
+    }
+    figure#yasmim img {
+        width: 800px;
+        box-shadow: 0px 0px 4px black;
+        margin-left: 100px;
+    }
+    figure#mirelly img {
+        width: 800px;
+        box-shadow: 0px 0px 4px black;
+        margin-left: 100px;
+    }
+    h4#txt {
+        align-content: center;
+        justify-content: center;
+        display: block;
+        width: 800px;
+        margin-left: 100px;
+    }
+</style>
+<figure id="arame-do-caderno">
+<img src="imagem-fundo/arame4.jpg" alt="arame-do-caderno">
+</figure><br><br>
+<!--INICIO DO CONTEUDO-->
+
           
-     <h1>Rancho Das Abelhas</h1>
-     <h2><a href="escopo_do_projeto.html" target="_blank">Conheça o escopo do projeto!</a></h2>
-    </header>
-<!--fim cabeçalho-->
 
-
-
-
-
-    <nav id="menu">
-        <h1>Menu Principal</h1>
-            <ul type= "square">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Fases 1-2-3 do projeto.html" target="_blank">Fases 1-2-3</a></li>
-                <li><a href="fotos.html" target="_blank"> Fotos</a></li>
-                <li><a href="musicas-no-projeto.html" target="_blank"> Músicas</a></li>
-                <li><a href="contato.html" target="_blank">contato</a></li>
-            </ul><br>	
-        </nav>
-
-
-          
-
-<h2>Yasmim Gonçalves de Souza, a primeira pessoa a se interessar pelas idéias do projeto, embora ainda não tenha idade para fazer os cursos de programção do curso em video,
+<h4 id="txt">Yasmim Gonçalves de Souza, a primeira pessoa a se interessar pelas idéias do projeto, embora ainda não tenha idade para fazer os cursos de programção do curso em video,
 
 assiste as playlists dos cursos diretamente pelo yuoutube.<br>
-E ela já viu as seguntes playlits:<br><br>
+E ela já viu as seguntes playlits:</h4><br><br>
 
-
+<h4 id="txt">
 <a href="https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV">Algorítmo</a><br><br>
 <a href="https://youtube.com/playlist?list=PLL6xV-3oZV5P_P4V_N3hihg4AjQzvt5KV&si=XX2qIYuzzqeloHlf">Base numérica</a><br><br>
 <a href="https://youtube.com/playlist?list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&si=3tfUpjG3uoHGWIjT">HTML5/CSS3/Java Script</a>
+</h4>
 
 
 <figure id="yasmim">
@@ -79,18 +120,14 @@ E ela já viu as seguntes playlits:<br><br>
     <img src="gif/Yasmim.gif" alt="Yasmim estudante">
 </figure>
 
-</h2>
 
-<br>
-<h2>
+
+<h4 id="txt">
    <a href="https://www.facebook.com/profile.php?id=100077380846382&mibextid=ZbWKwL"> Mirelly Silva </a>  já faz EAD na escola Dom Lúcio o curso de informática básica e também faz EAD no site <a href="https://www.cursoemvideo.com/">curso em vídeo </a>  alguns cursos de programação.<br>
     Veja os cursos que ela já fez:<br><br>
     <a href="https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV">Algorítmo</a><br><br> 
     <a href="https://youtube.com/playlist?list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&si=3tfUpjG3uoHGWIjT">HTML5/CSS3/Java Script</a>
-
-
-
-</h2>
+</h4>
 
 <figure id="mirelly">
     <img src="gif/Mirelly.gif" alt="Mirelly estudante">
